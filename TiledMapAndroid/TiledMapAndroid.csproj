@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net6.0-android</TargetFramework>
+    <OutputType>Exe</OutputType>
+    <SupportedOSPlatformVersion>25.0</SupportedOSPlatformVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="Content\map.tmj" />
+    <None Remove="Content\tiles.png" />
+    <None Remove="Content\tileset.tsj" />
+    <None Remove="norsu.png" />
+    <None Remove="Resources\values\styles.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidAsset Include="Content\map.tmj" />
+    <AndroidAsset Include="Content\norsu.png" />
+    <AndroidAsset Include="Content\tiles.png" />
+    <AndroidAsset Include="Content\tileset.tsj" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\Jypeli-fork\FarseerPhysics\FarseerPhysics.csproj" />
+    <ProjectReference Include="..\..\Jypeli-fork\Jypeli\Jypeli.csproj" />
+  </ItemGroup>
+</Project>

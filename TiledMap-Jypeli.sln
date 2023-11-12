@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34202.233
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Jypeli", "..\Jypeli-fork\Jypeli\Jypeli.csproj", "{1E9D95C9-7520-44BD-8964-64B159971273}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FarseerPhysics", "..\Jypeli-fork\FarseerPhysics\FarseerPhysics.csproj", "{5763936B-D30A-4DEA-9E96-5E1F840ABE76}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Snowman", "Snowman\Snowman.csproj", "{E67DC359-9542-4333-9649-7B0B87CF8AAB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TiledMapAndroid", "TiledMapAndroid\TiledMapAndroid.csproj", "{8543F93B-4FBA-45E1-8BD3-20498DB3AAA5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1E9D95C9-7520-44BD-8964-64B159971273}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E9D95C9-7520-44BD-8964-64B159971273}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E9D95C9-7520-44BD-8964-64B159971273}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E9D95C9-7520-44BD-8964-64B159971273}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5763936B-D30A-4DEA-9E96-5E1F840ABE76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5763936B-D30A-4DEA-9E96-5E1F840ABE76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5763936B-D30A-4DEA-9E96-5E1F840ABE76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5763936B-D30A-4DEA-9E96-5E1F840ABE76}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E67DC359-9542-4333-9649-7B0B87CF8AAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E67DC359-9542-4333-9649-7B0B87CF8AAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E67DC359-9542-4333-9649-7B0B87CF8AAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E67DC359-9542-4333-9649-7B0B87CF8AAB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8543F93B-4FBA-45E1-8BD3-20498DB3AAA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8543F93B-4FBA-45E1-8BD3-20498DB3AAA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8543F93B-4FBA-45E1-8BD3-20498DB3AAA5}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{8543F93B-4FBA-45E1-8BD3-20498DB3AAA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8543F93B-4FBA-45E1-8BD3-20498DB3AAA5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8543F93B-4FBA-45E1-8BD3-20498DB3AAA5}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2FF85E0B-720B-4E50-A8EA-E1666AB7CBE9}
+	EndGlobalSection
+EndGlobal

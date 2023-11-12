@@ -1,0 +1,19 @@
+# Visual Studio files
+*/[Ee]xported[Oo]bj/
+*.booproj
+*.pidb
+*.suo
+*.svd
+*.user
+*.userprefs
+*.cachefile
+bin/
+obj/
+.vs/
+
+# Files generated in the build process
+Jypeli.*.sln
+Jypeli.*.csproj
+Compiled/
+installer/MonoJypeli_setup.exe
+/BuildScripts/tools/
